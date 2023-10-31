@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="@drawable/wood"
+    android:alpha="0.9"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/xprzycisk"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:src="@drawable/whitex"-->
+<!--        android:background="?android:attr/selectableItemBackground"-->
+<!--        android:text="x"-->
+<!--        android:scaleType="fitCenter"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:gravity="center" />-->
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp">
+    <ImageButton
+        android:id="@+id/k1"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_width="280px"
+        android:layout_height="280px"
+        android:layout_marginLeft="35dp"
+        android:src="@drawable/woodenpickaxe"/>
+        <ImageButton
+            android:id="@+id/k2"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/blackpickaxe"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp">
+        <ImageButton
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/blackpickaxe"/>
+        <ImageButton
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/blackpickaxe"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp">
+        <ImageButton
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/blackpickaxe"/>
+        <ImageButton
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_width="280px"
+            android:layout_height="280px"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/blackpickaxe"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

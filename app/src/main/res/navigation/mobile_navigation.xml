@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.projekt2yalla.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_blacksmithFragment"
+            app:destination="@id/blacksmithFragment"/>
+<!--        <argument-->
+<!--            android:name="user"-->
+<!--            app:argType="com.example.projekt2yalla.ui.model.User"/>-->
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_game"
+            app:destination="@id/navigation_game" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="com.example.projekt2yalla.ui.dashboard.GameFragment"
+        android:label="Cave"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_navigation_game_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.projekt2yalla.ui.notifications.NotificationsFragment"
+        android:label="Summoner Village"
+        tools:layout="@layout/fragment_notifications" />
+    <activity
+        android:id="@+id/startPage"
+        android:name="com.example.projekt2yalla.StartPage"
+        android:label="yeye"
+        tools:layout="@layout/activity_start_page" />
+    <fragment
+        android:id="@+id/blacksmithFragment"
+        android:name="com.example.projekt2yalla.ui.blacksmith.BlacksmithFragment"
+        android:label="Blacksmith"
+        tools:layout="@layout/fragment_blacksmith" >
+        <action
+            android:id="@+id/action_blacksmithFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_blacksmithFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.example.projekt2yalla.ui.shop.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop" >
+        <action
+            android:id="@+id/action_shopFragment_to_blacksmithFragment"
+            app:destination="@id/blacksmithFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".StartPage">
+
+
+
+    <ImageView
+        android:id="@+id/iv_pickaxe"
+        android:layout_width="184dp"
+        android:layout_height="169dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center|left"
+        android:src="@drawable/pickaxesvg"
+        android:alpha="0"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="center" />
+
+    <ImageView
+        android:id="@+id/iv_stone"
+        android:layout_width="184dp"
+        android:layout_height="169dp"
+        android:layout_marginRight="80dp"
+        android:layout_gravity="right|center"
+        android:alpha="0"
+        android:src="@drawable/stonesvg"
+        app:layout_anchor="@+id/iv_pickaxe"
+        app:layout_anchorGravity="center" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_start_page"
+        app:layout_anchor="@+id/iv_pickaxe"
+        app:layout_anchorGravity="center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
