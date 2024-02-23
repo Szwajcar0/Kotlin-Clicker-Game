@@ -17,7 +17,15 @@ Geneza Projektu - Pomysł na ten projekt miałem od praktyk w firmie gdzie pierw
 
 Ostatnie przemyślenia - W projekt włożyłem bardzo dużo czasu i jestem zadowolony z wyniku. Mimo wszystko doszedłem do wniosku, że w przyszłości odświeżę ten Projekt w unity jako kolejne wyzwanie.
 
+## SCREENS
+
 <image src="opisowefoty/Zrzut ekranu 2024-02-23 161823.png">
+<image src="opisowefoty/1.png">
+<image src="opisowefoty/2.png">
+<image src="opisowefoty/3.png">
+<image src="opisowefoty/4.png">
+<image src="opisowefoty/5.png">
+<image src="opisowefoty/6.png">
 
 ## Authors
 
