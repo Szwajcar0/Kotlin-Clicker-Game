@@ -22,13 +22,13 @@ Ostatnie przemyślenia - W projekt włożyłem bardzo dużo czasu i jestem zadow
 <image src="opisowefoty/Zrzut ekranu 2024-02-23 161823.png">
 <p>Główna strona gry z naszą postacią</p>
 <image src="opisowefoty/2.png">
-Fragment z częścią clickerową
+<p>Fragment z częścią clickerową</p>
 <image src="opisowefoty/3.png">
-Kuźnia z kowalem (miał zostać rozwinięty o ulepszanie kilofów)
+<p>Kuźnia z kowalem (miał zostać rozwinięty o ulepszanie kilofów)</p>
 <image src="opisowefoty/4.png">
-Panel sklepu z możliwością zakupienia lepszego ekwipunku
+<p>Panel sklepu z możliwością zakupienia lepszego ekwipunku</p>
 <image src="opisowefoty/5.png">
-Po naciśnieciu prawej strzałki pojawia się nam lepszy kilof
+<p>Po naciśnieciu prawej strzałki pojawia się nam lepszy kilof</p>
 <image src="opisowefoty/6.png">
 
 ## Authors
