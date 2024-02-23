@@ -20,7 +20,7 @@ Ostatnie przemyślenia - W projekt włożyłem bardzo dużo czasu i jestem zadow
 ## SCREENS
 > Ekran wczytywania gry
 <image src="opisowefoty/Zrzut ekranu 2024-02-23 161823.png">
->Główna strona gry z naszą postacią
+> Główna strona gry z naszą postacią
 <image src="opisowefoty/2.png">
 > Fragment z częścią 'clickerową'
 <image src="opisowefoty/3.png">
