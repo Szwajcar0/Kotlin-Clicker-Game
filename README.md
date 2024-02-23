@@ -17,7 +17,7 @@ Geneza Projektu - Pomysł na ten projekt miałem od praktyk w firmie gdzie pierw
 
 Ostatnie przemyślenia - W projekt włożyłem bardzo dużo czasu i jestem zadowolony z wyniku. Mimo wszystko doszedłem do wniosku, że w przyszłości odświeżę ten Projekt w unity jako kolejne wyzwanie.
 
-<image src="Zrzut ekranu 2024-02-23 161823.png">
+<image src="opisowefoty/Zrzut ekranu 2024-02-23 161823.png">
 
 ## Authors
 
