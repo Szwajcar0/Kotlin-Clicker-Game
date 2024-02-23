@@ -18,13 +18,17 @@ Geneza Projektu - Pomysł na ten projekt miałem od praktyk w firmie gdzie pierw
 Ostatnie przemyślenia - W projekt włożyłem bardzo dużo czasu i jestem zadowolony z wyniku. Mimo wszystko doszedłem do wniosku, że w przyszłości odświeżę ten Projekt w unity jako kolejne wyzwanie.
 
 ## SCREENS
-<label>
+> Ekran wczytywania gry
 <image src="opisowefoty/Zrzut ekranu 2024-02-23 161823.png">
+> Główna strona gry z naszą postacią
 <image src="opisowefoty/2.png">
-</label>
+> Fragment z częścią 'clickerową'
 <image src="opisowefoty/3.png">
+> Kuźnia z kowalem (miał zostać rozwinięty o ulepszanie kilofów)
 <image src="opisowefoty/4.png">
+> Panel sklepu z możliwością zakupienia lepszego ekwipunku
 <image src="opisowefoty/5.png">
+> Po naciśnieciu prawej strzałki pojawia się nam lepszy kilof
 <image src="opisowefoty/6.png">
 
 ## Authors
